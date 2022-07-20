@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap&subset=chinese-traditional');
+
+body {
+    margin: 0;
+    font-family: Han Sans TW;
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+}
+
+/*-----header-----*/
+header {
+    min-height: 65px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header__container {
+    padding-top: 5px;
+    max-width: 1140px;
+}
+
+header:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #0089d1;
+    background: linear-gradient(to right, #0089d1 5%, #01b6b2 95%);
+}
+
+.navbar {
+    font-size: 18px;
+    font-weight: bold;
+    color: #808080;
+}
+
+.navbar__share{
+    width: 75px;
+}
+
+.navbar__list {
+    justify-content: flex-end;
+    font-size: 16px;
+    color: #333;
+}
+
+.nav__item__line{
+    display: inline-block;
+    width: 100%;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    background-image: url('/img/media.png');
+    background-repeat: no-repeat;
+    background-size: 90px 60px;
+}
+
+.nav__item__line:hover{
+    display: inline-block;
+    width: 100%;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    background-image: url('/img/media.png');
+    background-repeat: no-repeat;
+    background-size: 90px 60px;
+    background-position: 0 -30px;
+}
+
+.nav__item__fb{
+    display: inline-block;
+    width: 100%;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    background-image: url('/img/media.png');
+    background-repeat: no-repeat;
+    background-size: 90px 60px;
+    background-position: -30px 0;
+}
+
+.nav__item__fb:hover{
+    display: inline-block;
+    width: 100%;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    background-image: url('/img/media.png');
+    background-repeat: no-repeat;
+    background-size: 90px 60px;
+    background-position: -30px -30px;
+}
+
+/*主視覺*/
+article{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    background-image: url('/img/kv_bg.png') ;
+}
+
+@media screen and (max-width:576px){ 
+    article{
+        width: 100%;
+        background-image:none;
+    }
+}
+/*------main------*/
+.main-container, .warning,.footer-container {
+    max-width: 1140px;
+}
+
+
+.main-title{
+color: #333;
+font-weight:500;
+}
+
+.group{
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #E6E6E6;
+}
+
+.group-img{
+border-radius: 8px;
+overflow: hidden;
+border: 1px solid #E6E6E6;
+}
+
+.group-inf__title{
+ font-weight:bolder;
+ font-size: 25px;
+}
+
+.content-item{
+    height: 80px;
+}
+/*-----warning-----*/
+.warning{
+max-width: 1140px;
+}
+
+/*-----更新版本-----*/
+.update_vision {
+    max-width: 1140px;
+    text-align: end;
+    font-size: 16px;
+    color: #7c7c7c;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+/*----footer----*/
+
+.footer-link ul li a:before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    background-color: #fff;
+    margin: 0 10px;
+    opacity: .5;
+    vertical-align: middle
+}
+
+footer {
+    padding: 32px 0;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    background: #6b6b6b 0% 0% no-repeat padding-box;
+
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 30px;
+
+}
+
+ul li {
+    padding-left: 10px;
+    height: 25px;    
+    display: inline-block;/*直的變橫的*/
+}
+
+.footer-link ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.about {
+    font-family: JhengHei;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-size: 12PX;
+}
