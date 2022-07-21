@@ -139,6 +139,12 @@ article{
     max-width: 1140px;
 }
 
+@media screen and (max-width:768px){ 
+    .main-container{
+        max-width: 570px;
+    }
+}
+
 .group{
     position: relative;
 }
@@ -212,12 +218,7 @@ z-index: 9999;
 max-width: 1140px;
 }
 
-@media screen and (min-width:576px){ 
-    .warning{
-        padding-left: 48px;
-        padding-right: 48px;    
-    }
-}
+
 
 /*-----更新版本-----*/
 .update_vision {
