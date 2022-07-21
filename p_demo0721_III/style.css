@@ -214,8 +214,8 @@ max-width: 1140px;
 
 @media screen and (min-width:576px){ 
     .warning{
-        padding-left: 70px;
-        padding-right: 70px;    
+        padding-left: 48px;
+        padding-right: 48px;    
     }
 }
 
